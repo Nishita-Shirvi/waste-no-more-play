@@ -40,8 +40,8 @@ const Hero = () => {
 
         {/* Subheading */}
         <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-slide-up stagger-2">
-          Restaurants, hostels, aur events se surplus Biryani, Dal Makhani, Paneer Tikka aur bahut kuch bachayein. 
-          Waste kam karein, community ki madad karein, aur har plate ke liye points kamaayein!
+          Connect with restaurants, hostels, and events to rescue surplus Biryani, Dal Makhani, Paneer Tikka and more! 
+          Reduce waste, help your community, and earn points for every plate you save!
         </p>
 
         {/* CTA Buttons */}

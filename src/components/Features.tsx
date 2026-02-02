@@ -4,32 +4,32 @@ const features = [
   {
     icon: Bell,
     title: 'Real-Time Alerts',
-    description: 'Jab bhi aapke paas naya khana available ho, turant notification paayein. Koi bhi mauka mat chhodein!',
+    description: 'Get notified instantly when new food is available near you. Never miss a chance to save!',
   },
   {
     icon: MapPin,
     title: 'Location-Based',
-    description: 'Nearby restaurants, dhabas, aur events se surplus Biryani, Dosa, Chole Bhature dhundhein.',
+    description: 'Find surplus Biryani, Dosa, Chole Bhature from nearby restaurants, dhabas, and events.',
   },
   {
     icon: Star,
     title: 'Gamification',
-    description: 'Points kamaayein, badges unlock karein, aur leaderboards par compete karein. Khana bachana mazedaar banayein!',
+    description: 'Earn points, unlock badges, and compete on leaderboards. Make saving food fun!',
   },
   {
     icon: Shield,
     title: 'Verified Listings',
-    description: 'Sabhi food providers quality aur safety ke liye verified hain. Vishwaas ke saath khaayen.',
+    description: 'All food providers are verified for quality and safety. Eat with confidence.',
   },
   {
     icon: Zap,
     title: 'Instant Booking',
-    description: 'Seconds mein apna khana reserve karein. Quick, simple, aur hassle-free experience.',
+    description: 'Reserve your food in seconds. Quick, simple, and hassle-free experience.',
   },
   {
     icon: MessageCircle,
     title: 'Community Reviews',
-    description: 'Reviews padhein aur likhein - doosron ko best food rescues dhundhne mein madad karein.',
+    description: 'Read and leave reviews to help others find the best food rescues in your area.',
   },
 ];
 

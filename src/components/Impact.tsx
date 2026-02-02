@@ -2,10 +2,10 @@ import { useEffect, useState, useRef } from 'react';
 import { Leaf, Users, Utensils, Building } from 'lucide-react';
 
 const stats = [
-  { icon: Utensils, value: 50000, label: 'Bhojan Bachaye', suffix: '+' },
+  { icon: Utensils, value: 50000, label: 'Meals Rescued', suffix: '+' },
   { icon: Users, value: 10000, label: 'Active Heroes', suffix: '+' },
   { icon: Building, value: 500, label: 'Partner Businesses', suffix: '+' },
-  { icon: Leaf, value: 25000, label: 'kg CO₂ Bachaya', suffix: '' },
+  { icon: Leaf, value: 25000, label: 'kg CO₂ Saved', suffix: '' },
 ];
 
 const useCountUp = (end: number, duration: number = 2000, startCounting: boolean) => {
@@ -98,13 +98,13 @@ const Impact = () => {
         <div className="text-center mb-16">
           <span className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
             <Leaf className="w-4 h-4" />
-            Hamara Impact
+            Our Impact
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
-            Milkar Hum Bana Rahe Hain <span className="gradient-text">Fark</span>
+            Together, We're Making a <span className="gradient-text">Difference</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Har bachaya hua bhojan sustainable future ki taraf ek kadam hai. Dekhen humari community ka collective impact.
+            Every meal saved is a step towards a sustainable future. See the collective impact of our community.
           </p>
         </div>
 
@@ -118,10 +118,10 @@ const Impact = () => {
         {/* Additional Message */}
         <div className="text-center mt-16 p-8 rounded-3xl bg-gradient-to-r from-primary/10 via-accent/20 to-secondary/10 border border-border">
           <p className="text-xl sm:text-2xl font-semibold mb-2">
-            🇮🇳 Har thali maayine rakhti hai. Har kadam count karta hai.
+            🇮🇳 Every plate matters. Every action counts.
           </p>
           <p className="text-muted-foreground">
-            Hazaron food heroes ke saath judein aur food waste ke solution ka hissa banein.
+            Join thousands of food heroes and be part of the solution to food waste.
           </p>
         </div>
       </div>
