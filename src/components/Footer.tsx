@@ -5,16 +5,18 @@ const Footer = () => {
 
   const footerLinks = {
     company: [
-      { name: 'About Us', href: '#' },
-      { name: 'How It Works', href: '#how-it-works' },
+      { name: 'Hamare Baare Mein', href: '#' },
+      { name: 'Kaise Kaam Karta Hai', href: '#how-it-works' },
       { name: 'Careers', href: '#' },
       { name: 'Press', href: '#' },
     ],
-    support: [
-      { name: 'Help Center', href: '#' },
-      { name: 'Contact Us', href: '#' },
-      { name: 'FAQs', href: '#' },
-      { name: 'Community', href: '#' },
+    cities: [
+      { name: 'Mumbai', href: '#' },
+      { name: 'Bengaluru', href: '#' },
+      { name: 'Chennai', href: '#' },
+      { name: 'Hyderabad', href: '#' },
+      { name: 'Pune', href: '#' },
+      { name: 'Kolkata', href: '#' },
     ],
     legal: [
       { name: 'Privacy Policy', href: '#' },
@@ -44,20 +46,20 @@ const Footer = () => {
               <span className="text-2xl font-bold text-primary">PlateUp</span>
             </a>
             <p className="text-background/70 mb-6 max-w-sm">
-              Connecting surplus food with people who need it. Join us in the fight against food waste.
+              Anna ka samman, desh ka abhimaan. Join us in the fight against food waste across India.
             </p>
             <div className="space-y-3">
-              <a href="mailto:hello@plateup.com" className="flex items-center gap-3 text-background/70 hover:text-primary transition-colors">
+              <a href="mailto:namaste@plateup.in" className="flex items-center gap-3 text-background/70 hover:text-primary transition-colors">
                 <Mail className="w-5 h-5" />
-                hello@plateup.com
+                namaste@plateup.in
               </a>
-              <a href="tel:+1234567890" className="flex items-center gap-3 text-background/70 hover:text-primary transition-colors">
+              <a href="tel:+919876543210" className="flex items-center gap-3 text-background/70 hover:text-primary transition-colors">
                 <Phone className="w-5 h-5" />
-                +1 (234) 567-890
+                +91 98765 43210
               </a>
               <div className="flex items-center gap-3 text-background/70">
                 <MapPin className="w-5 h-5" />
-                San Francisco, CA
+                Connaught Place, New Delhi
               </div>
             </div>
           </div>
@@ -77,9 +79,9 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4">Support</h3>
+            <h3 className="text-lg font-semibold mb-4">Cities We Serve</h3>
             <ul className="space-y-3">
-              {footerLinks.support.map((link) => (
+              {footerLinks.cities.map((link) => (
                 <li key={link.name}>
                   <a href={link.href} className="text-background/70 hover:text-primary transition-colors">
                     {link.name}

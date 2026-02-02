@@ -1,11 +1,11 @@
 import { Trophy, Medal, Award, Crown, Flame } from 'lucide-react';
 
 const topUsers = [
-  { rank: 1, name: 'Sarah Green', points: 12450, meals: 89, badge: '🌟 Eco Hero', avatar: '👩‍🦰' },
-  { rank: 2, name: 'Mike Chen', points: 10280, meals: 76, badge: '🏆 Food Saver', avatar: '👨' },
-  { rank: 3, name: 'Emma Wilson', points: 9150, meals: 68, badge: '💚 Green Champion', avatar: '👩' },
-  { rank: 4, name: 'James Park', points: 7820, meals: 54, badge: '⭐ Rising Star', avatar: '👨‍🦱' },
-  { rank: 5, name: 'Lisa Johnson', points: 6540, meals: 47, badge: '🌱 Sustainability Pro', avatar: '👩‍🦳' },
+  { rank: 1, name: 'Priya Sharma', points: 12450, meals: 89, badge: '🌟 Annadaata Hero', avatar: '👩' },
+  { rank: 2, name: 'Arjun Patel', points: 10280, meals: 76, badge: '🏆 Bhojan Rakshak', avatar: '👨' },
+  { rank: 3, name: 'Ananya Reddy', points: 9150, meals: 68, badge: '💚 Green Champion', avatar: '👩' },
+  { rank: 4, name: 'Rahul Verma', points: 7820, meals: 54, badge: '⭐ Rising Star', avatar: '👨' },
+  { rank: 5, name: 'Kavya Iyer', points: 6540, meals: 47, badge: '🌱 Sustainability Pro', avatar: '👩' },
 ];
 
 const getRankIcon = (rank: number) => {

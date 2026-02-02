@@ -3,26 +3,26 @@ import { Store, MapPin, Clock, Trophy } from 'lucide-react';
 const steps = [
   {
     icon: Store,
-    title: 'Businesses Post',
-    description: 'Restaurants, hostels, and event organizers list their surplus food with photos and pickup times.',
+    title: 'Dukaan Post Kare',
+    description: 'Restaurants, hostels, aur event organizers apna bacha hua khana photos aur pickup time ke saath list karte hain.',
     color: 'bg-primary',
   },
   {
     icon: MapPin,
-    title: 'You Discover',
-    description: 'Browse nearby food listings, see what\'s available, and find the best deals in your area.',
+    title: 'Aap Dhundhein',
+    description: 'Aas-paas ke khane ki listings browse karein, dekhein kya available hai - Biryani, Dal, Paneer aur bahut kuch!',
     color: 'bg-secondary',
   },
   {
     icon: Clock,
-    title: 'Claim & Pickup',
-    description: 'Reserve your food instantly and pick it up at the scheduled time. Simple and quick!',
+    title: 'Claim Karein & Pickup',
+    description: 'Turant apna khana reserve karein aur scheduled time par pick up karein. Aasaan aur jaldi!',
     color: 'bg-primary',
   },
   {
     icon: Trophy,
-    title: 'Earn Rewards',
-    description: 'Get points for every rescue! Climb the leaderboard and unlock exclusive badges.',
+    title: 'Rewards Paayein',
+    description: 'Har rescue ke liye points paayein! Leaderboard par chadhein aur exclusive badges unlock karein.',
     color: 'bg-secondary',
   },
 ];
@@ -34,13 +34,13 @@ const HowItWorks = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="inline-block px-4 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
-            Simple Process
+            Aasaan Process
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
-            How <span className="gradient-text">PlateUp</span> Works
+            <span className="gradient-text">PlateUp</span> Kaise Kaam Karta Hai
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Saving food has never been easier. Follow these simple steps to start making a difference today.
+            Khana bachana kabhi itna aasaan nahi tha. Aaj hi fark laana shuru karein in simple steps se.
           </p>
         </div>
 
