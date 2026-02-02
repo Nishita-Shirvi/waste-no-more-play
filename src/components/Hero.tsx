@@ -14,13 +14,13 @@ const Hero = () => {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-accent/30 rounded-full blur-3xl" />
       </div>
 
-      {/* Floating Food Icons */}
+      {/* Floating Food Icons - Indian Food */}
       <div className="absolute inset-0 -z-5 overflow-hidden pointer-events-none">
-        <span className="absolute top-[15%] left-[10%] text-6xl animate-float opacity-20">🍕</span>
-        <span className="absolute top-[25%] right-[15%] text-5xl animate-float stagger-2 opacity-20">🥗</span>
-        <span className="absolute bottom-[30%] left-[20%] text-4xl animate-float stagger-3 opacity-20">🍎</span>
-        <span className="absolute bottom-[20%] right-[10%] text-6xl animate-float stagger-4 opacity-20">🥪</span>
-        <span className="absolute top-[40%] left-[5%] text-5xl animate-float stagger-5 opacity-20">🍲</span>
+        <span className="absolute top-[15%] left-[10%] text-6xl animate-float opacity-20">🍛</span>
+        <span className="absolute top-[25%] right-[15%] text-5xl animate-float stagger-2 opacity-20">🥘</span>
+        <span className="absolute bottom-[30%] left-[20%] text-4xl animate-float stagger-3 opacity-20">🍚</span>
+        <span className="absolute bottom-[20%] right-[10%] text-6xl animate-float stagger-4 opacity-20">🫓</span>
+        <span className="absolute top-[40%] left-[5%] text-5xl animate-float stagger-5 opacity-20">🥙</span>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -40,8 +40,8 @@ const Hero = () => {
 
         {/* Subheading */}
         <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-slide-up stagger-2">
-          Connect with restaurants, hostels, and events to rescue surplus food in real-time. 
-          Reduce waste, help your community, and earn points for every plate you save!
+          Restaurants, hostels, aur events se surplus Biryani, Dal Makhani, Paneer Tikka aur bahut kuch bachayein. 
+          Waste kam karein, community ki madad karein, aur har plate ke liye points kamaayein!
         </p>
 
         {/* CTA Buttons */}
